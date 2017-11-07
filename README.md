@@ -7,7 +7,7 @@
 
 ## Description
 
-_The use of this web app is for Environmental Consultants who conduct site investigations on properties throughout the State of Hawaii. Environmental Action Levels (EALs) are concentrations of contaminants in soil, soil gas, and groundwater that are used in decision making throughout the site investigation process._
+_The use of this web app is for Environmental Consultants who conduct site investigations on properties throughout the State of Hawaii. Environmental Action Levels (EALs) are concentrations of contaminants in soil, soil gas, groundwater and indoor air that are used in decision making throughout the site investigation process._
 
 _The user may create an account to access the web app. The user may create a new project and assign the Site Scenario's three criteria which are: Land Use, Groundwater Utility, and Distance to Nearest Surface Water Body. The user may enter each sample's contaminate results and compare it to the state established EAL._
 
@@ -31,7 +31,7 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 || The user may filter Sample results to display all Samples equal to or greater than the EALs | Click `Contaminant Exceedances` on the Project Details view |  A list of Samples with Contaminant Exceedances will be displayed |
 
 ## SQL Design
-![](EALScreeningTool/wwwroot/images/EALScreenshot.PNG)
+![](EALScreenshot.PNG)
 
 
 ## Setup/Installation Requirements
