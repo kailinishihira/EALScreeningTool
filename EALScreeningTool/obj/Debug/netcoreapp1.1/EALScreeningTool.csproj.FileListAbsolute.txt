@@ -1,0 +1,11 @@
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\bin\Debug\netcoreapp1.1\EALScreeningTool.deps.json
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\bin\Debug\netcoreapp1.1\EALScreeningTool.runtimeconfig.json
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\bin\Debug\netcoreapp1.1\EALScreeningTool.runtimeconfig.dev.json
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\bin\Debug\netcoreapp1.1\EALScreeningTool.dll
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\bin\Debug\netcoreapp1.1\EALScreeningTool.pdb
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.csprojResolveAssemblyReference.cache
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.csproj.CoreCompileInputs.cache
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.AssemblyInfoInputs.cache
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.AssemblyInfo.cs
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.dll
+C:\Users\Kaili\Desktop\EALScreeningTool\EALScreeningTool\obj\Debug\netcoreapp1.1\EALScreeningTool.pdb
