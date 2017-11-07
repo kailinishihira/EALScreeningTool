@@ -1,6 +1,6 @@
 ## Hawaii Environmental Action Level Screening Tool
 
-### Kaili Nishihira
+#### By _Kaili Nishihira_
 
 #### _This is a web app to screen analytical data from environmental samples against the State of Hawaii's established screening criteria, which are known as the Environmental Action Levels, 11.05.17_
 
@@ -37,6 +37,7 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 || The user may filter Sample results to display all Samples equal to or greater than the EALs | Click `Contaminant Exceedances` on the Project Details view |  A list of Samples with Contaminant Exceedances will be displayed |
 
 ## SQL Design
+
 ![](EALScreeningTool/wwwroot/images/EALScreenshot.png)
 
 
@@ -49,11 +50,13 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 * _Clone repository_
 
 ### Setup/Installation for Database
+
 * In your terminal, navigate from the Solution folder to the project folder, EALScreeningTool
 * Enter `dotnet restore` from the command line
 * Enter `dotnet ef database udpate` from the command line
 
-##### Import data from the Cloned Repository
+### Import data from the Cloned Repository
+
 * _Click 'Open start page' in MAMP_
 * _Under 'Tools', select 'phpMyAdmin'_
 * _Click 'Import' tab_
@@ -61,12 +64,22 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 * _Click 'Go'_
 
 ## Technologies Used
+
 * _C#_
 * _.NET_
 * _MVC_
 * _Entity Framework_
 * _[Bootstrap](http://getbootstrap.com/getting-started/)_
 * _[MySQL](https://www.mysql.com/)_
+
+
+## Known Bugs
+
+_None._
+
+## Support and contact details
+
+_Contributions are always welcome! Please contact Kaili Nishihira at kailinishihira@gmail.com_
 
 ### License
 
