@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="EALScreeningTool/Models/ApplicationDbContext.cs">
+    <Files>
+      <File FileName="EALScreeningTool/Startup.cs" Line="14" Column="37" />
+      <File FileName="EALScreeningTool/Program.cs" Line="1" Column="1" />
+      <File FileName="EALScreeningTool/EALScreeningTool.csproj" Line="1" Column="1" />
+      <File FileName="EALScreeningTool/Models/ApplicationUser.cs" Line="14" Column="1" />
+      <File FileName="EALScreeningTool/Models/Project.cs" Line="23" Column="9" />
+      <File FileName="EALScreeningTool/Models/Sample.cs" Line="20" Column="47" />
+      <File FileName="EALScreeningTool/Models/DWLessThan150M.cs" Line="15" Column="9" />
+      <File FileName="EALScreeningTool/Models/DWLessThan150MSample.cs" Line="22" Column="1" />
+      <File FileName="EALScreeningTool/Models/ApplicationDbContext.cs" Line="5" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

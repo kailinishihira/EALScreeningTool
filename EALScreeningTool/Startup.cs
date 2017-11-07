@@ -8,6 +8,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using EALScreeningTool.Models;
+using Microsoft.EntityFrameworkCore;
+
+
 namespace EALScreeningTool
 {
     public class Startup
@@ -29,6 +35,14 @@ namespace EALScreeningTool
         {
             // Add framework services.
             services.AddMvc();
+			services.AddEntityFrameworkMySql()
+					.AddDbContext<ApplicationDbContext>(options =>
+											  options
+												   .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
+
+			services.AddIdentity<ApplicationUser, IdentityRole>()
+				.AddEntityFrameworkStores<ApplicationDbContext>()
+				.AddDefaultTokenProviders();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,8 +60,10 @@ namespace EALScreeningTool
             {
                 app.UseExceptionHandler("/Home/Error");
             }
+			
+            app.UseIdentity();
 
-            app.UseStaticFiles();
+			app.UseStaticFiles();
 
             app.UseMvc(routes =>
             {
