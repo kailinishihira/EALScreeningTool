@@ -1,4 +1,4 @@
-## Hawaii Environmental Action Level Screening Tool
+# Hawaii Environmental Action Level Screening Tool
 
 #### By _Kaili Nishihira_
 
