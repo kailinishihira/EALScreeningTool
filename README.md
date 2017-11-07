@@ -31,7 +31,7 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 || The user may filter Sample results to display all Samples equal to or greater than the EALs | Click `Contaminant Exceedances` on the Project Details view |  A list of Samples with Contaminant Exceedances will be displayed |
 
 ## SQL Design
-![](EALScreenshot.PNG)
+![](/EALScreenshot.PNG)
 
 
 ## Setup/Installation Requirements
