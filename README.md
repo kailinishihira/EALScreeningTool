@@ -14,6 +14,7 @@ _The user may create an account to access the web app. The user may create a new
 _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](http://eha-web.doh.hawaii.gov/eha-cma/Leaders/HEER/environmental-hazard-evaluation-and-environmental-action-levels)._
 
 ### User Stories
+
 * _As a user, I would like to be able to store my sample data in the database._
 * _As an administrator, I would like to be able to edit and delete sample data from the database._
 * _As a user, I would like to filter sample results by a given contaminant so I may see how the contaminant concentrations vary throughout the site._
