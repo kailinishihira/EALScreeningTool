@@ -2,7 +2,7 @@
 
 #### By _Kaili Nishihira_
 
-#### _This is a web app to screen analytical data from environmental samples against the State of Hawaii's established screening criteria, which are known as the Environmental Action Levels, 11.05.17_
+#### _A web app to screen analytical data from environmental samples against the State of Hawaii's established screening criteria, which are known as the Environmental Action Levels, 11.05.17_
 
 
 ## Description
