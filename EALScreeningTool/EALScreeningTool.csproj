@@ -25,11 +25,7 @@
   <ItemGroup>
 	<Folder Include="wwwroot\" />
     <Folder Include="Models\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\" />
     <Folder Include="Views\Shared\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Migrations\20171107192209_Initial.Designer.cs" />
