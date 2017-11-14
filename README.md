@@ -22,8 +22,8 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 
 || Behavior  | Example Input  | Example Output  |
 |---|---|---|---|
-|| The user may create an account <br> Click `Register a new account` | Email: steve@gmail.com <br> Password: xxxxxxxx  | After successfully registering a new account, the user is redirected to the login page |
-|| The user may log in to their existing account <br> Click `Login to your account` | Email: steve@gmail.com <br> Password: xxxxxxxx | After successfully logging into their account, the user is redirected to the home page |
+|| The user may log in to their existing account | Email: steve@gmail.com <br> Password: xxxxxxxx <br> Click `Log In` button | After successfully logging into their account, the user is redirected to the home page |
+|| The user may create an account <br> Click `Sign Up` link | Email: steve@gmail.com <br> Password: xxxxxxxx  <br> Click `Register` button | After successfully registering a new account, the user is redirected to the login page |
 || The user may log out of their account | Click `Log Out` on the navigation bar | The user is redirected to the Login view |
 || The user may create a new project and will be saved in the database <br> Click `Start new project` | Project Name/Type: ABC Company, Phase II <br> Client Name: XYZ Company <br> Site Name: Momo's Grocery Store <br> Site Address: 123 Coconut Lane, Honolulu, HI 96819 <br> Tax Map Key (TMK) #: (1) 2-3-456-789-0000 <br><br> *Project Site Scenario*<br> Land Use: Unrestricted <br> Groundwater Utility: Drinking Water Resource <br> Distance to Nearest Surface Water Body: < 150 m <br> Enter by: Steve Smith <br> Click `Submit` | The user is redirected to the Project Details view where the project details are displayed |
 || The user may edit the Project's details <br> Click `Edit` on the Project's Details view | Project Name: ABC Company, Phase III <br> Click `Update` | The user is redirected to the Project Details view where the updated project details are displayed |
@@ -52,6 +52,7 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 
 ### Setup/Installation for Database
 
+* Set MySQL Port number in appsettings.json
 * In your terminal, navigate from the Solution folder to the project folder, EALScreeningTool
 * Enter `dotnet restore` from the command line
 * Enter `dotnet ef database udpate` from the command line
