@@ -16,7 +16,7 @@
         <p class="card-text">Land Use: @Html.DisplayFor(model => model.LandUse)</p>
         <p class="card-text">Groundwater Utility: @Html.DisplayFor(model => model.GWUtility)</p>
         <p class="card-text">Distance to Nearest Surface Water Body: @Html.DisplayFor(model => model.DistanceToWB)</p>
-        <p class="card-text"><small>Created By: @Html.DisplayFor(model => model.User.UserName)</small></p>
+        <p class="card-text"><small>Created By: @Html.DisplayFor(model => model.User.Email)</small></p>
 
         <p class="card-text"><small class="text-muted">@Html.ActionLink("Edit", "Edit", new { projectId = Model.ProjectId }) | @Html.ActionLink("Delete", "Delete", new { projectId = Model.ProjectId })</small></p>
      </div>
