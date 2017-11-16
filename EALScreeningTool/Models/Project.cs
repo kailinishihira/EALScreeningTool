@@ -10,13 +10,21 @@ namespace EALScreeningTool.Models
     {
         [Key]
         public int ProjectId { get; set; }
+        [Required]
         public string ProjectName { get; set; }
+        [Required]
         public string ClientName { get; set; }
+        [Required]
         public string SiteName { get; set; }
+        [Required]
         public string SiteAddress { get; set; }
+        [Required]
         public string TMK { get; set; }
+        [Required]
         public string LandUse { get; set; }
+        [Required]
         public string GWUtility { get; set; }
+        [Required]
         public string DistanceToWB { get; set; }
 
         public ICollection<Sample> Samples { get; set; }
@@ -26,5 +34,6 @@ namespace EALScreeningTool.Models
         public Project()
         {
         }
+
     }
 }

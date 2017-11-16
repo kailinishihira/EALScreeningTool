@@ -1,0 +1,117 @@
+﻿@model EALScreeningTool.Models.Project
+
+@{
+    ViewData["Title"] = "Edit Project";
+}
+
+<h1>Edit Project</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.ProjectId)
+
+    <div class="card">
+        <div class="card-block">
+
+            <div class="row form-group">
+                <label class="col-md-4">Project Name</label>
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.ProjectName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Client Name</label>
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.ClientName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Site Name</label>
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.SiteName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Site Address</label>
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.SiteAddress, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Tax Map Key (TMK) #</label>
+                <div class="col-md-8">
+                    @Html.TextBoxFor(model => model.TMK, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <h6>Project Site Scenario</h6>
+
+            <div class="row form-group">
+                <label class="col-md-4">Land Use</label>
+                <div class="col-md-8">
+                    @{
+                        List<SelectListItem> listItems = new List<SelectListItem>();
+                        listItems.Add(new SelectListItem
+                        {
+                            Text = "Unrestricted",
+                            Value = "Unrestricted",
+                        });
+                        listItems.Add(new SelectListItem
+                        {
+                            Text = "Commercial/Industrial Only",
+                            Value = "Commercial/Industrial Only",
+                        });
+                    }
+                    @Html.DropDownListFor(model => model.LandUse, listItems, "--- Select ---", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Groundwater Utility</label>
+                <div class="col-md-8">
+                    @{
+                        List<SelectListItem> listItems2 = new List<SelectListItem>();
+                        listItems2.Add(new SelectListItem
+                        {
+                            Text = "Drinking Water Resource",
+                            Value = "Drinking Water Resource",
+                        });
+                        listItems2.Add(new SelectListItem
+                        {
+                            Text = "Non-Drinking Water Resource",
+                            Value = "Non-Drinking Water Resource",
+                        });
+                    }
+                    @Html.DropDownListFor(model => model.GWUtility, listItems2, "--- Select ---", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="row form-group">
+                <label class="col-md-4">Distance to Nearest Surface Water Body</label>
+                <div class="col-md-8">
+                    @{
+                        List<SelectListItem> listItems3 = new List<SelectListItem>();
+                        listItems3.Add(new SelectListItem
+                        {
+                            Text = "< 150m",
+                            Value = "< 150m",
+                        });
+                        listItems3.Add(new SelectListItem
+                        {
+                            Text = "> 150m",
+                            Value = "> 150m",
+                        });
+                    }
+                    @Html.DropDownListFor(model => model.DistanceToWB, listItems3, "--- Select ---", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <input type="submit" value="Update Project" class="btn btn-success" />
+
+        </div>
+    </div>
+}

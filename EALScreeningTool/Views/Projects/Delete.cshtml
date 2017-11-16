@@ -1,0 +1,16 @@
+﻿@model EALScreeningTool.Models.Project
+
+@{
+    ViewData["Title"] = "Delete  Project";
+}
+
+<h1>Are you sure you want to delete @Html.DisplayFor(model => model.ProjectName)?</h1>
+<p>@Html.ActionLink("Return to Project Details", "Details", new { projectId = Model.ProjectId })</p> 
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.ProjectId)
+    <div class="d-flex justify-content-center">
+        <input type="submit" value="Delete Project" class="btn btn-default" />
+    </div>
+}
