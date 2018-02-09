@@ -41,7 +41,8 @@ namespace EALScreeningTool.Controllers
             }
             else
             {
-                return View("Error");
+                ViewData["Message"] = "Your login attempt was unsuccessful. Please try again.";
+                return View();
             }
         }
 
@@ -61,6 +62,7 @@ namespace EALScreeningTool.Controllers
             }
             else
             {
+                ViewData["Message"] = "Your registration was unsuccessful. Please try again.";
                 return View();
             }
         }

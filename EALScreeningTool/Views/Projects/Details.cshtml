@@ -7,15 +7,47 @@
 
 <div class="card">
     <div class="card-block">
-        <h4 class="card-title">Project Name: @Html.DisplayFor(model => model.ProjectName) </h4>
-        <h6 class="card-subtitle mb-2 text-muted">Client Name: @Html.DisplayFor(model => model.ClientName)</h6>
-        <p class="card-text">Site Name: @Html.DisplayFor(model => model.SiteName)</p>
-        <p class="card-text">Site Address: @Html.DisplayFor(model => model.SiteAddress)</p>
-        <p class="card-text">TMK: @Html.DisplayFor(model => model.TMK)</p>
-        <h6>Project Site Scenario</h6>
-        <p class="card-text">Land Use: @Html.DisplayFor(model => model.LandUse)</p>
-        <p class="card-text">Groundwater Utility: @Html.DisplayFor(model => model.GWUtility)</p>
-        <p class="card-text">Distance to Nearest Surface Water Body: @Html.DisplayFor(model => model.DistanceToWB)</p>
+        <div class="row">
+            <h4 class="card-title col-md-4">Project Name: </h4>
+            <h4 class="col-md-8">@Html.DisplayFor(model => model.ProjectName) </h4>
+        </div>
+        
+        <div class="row">
+            <p class="card-text col-md-4">Client Name: </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.ClientName)</p>
+        </div>
+
+        <div class="row">
+            <p class="card-text col-md-4">Site Name: </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.SiteName)</p>
+        </div>
+        
+        <div class="row">
+            <p class="card-text col-md-4">Site Address: </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.SiteAddress)</p>
+        </div>
+        
+        <div class="row">
+            <p class="card-text col-md-4">Tax Map Key (TMK): </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.TMK)</p>
+        </div>
+        
+        <h5>Project Site Scenario</h5>
+        <div class="row">
+            <p class="card-text col-md-4">Land Use: </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.LandUse)</p>
+        </div>
+
+        <div class="row">
+            <p class="card-text col-md-4">Groundwater Utility: </p>
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.GWUtility)</p>
+        </div>
+       
+        <div class="row">
+            <p class="card-text col-md-4">Distance to Nearest Surface Water Body: </p> 
+            <p class="card-text col-md-8">@Html.DisplayFor(model => model.DistanceToWB)</p>
+        </div>
+        
         <p class="card-text"><small>Created By: @Html.DisplayFor(model => model.User.Email)</small></p>
 
         <p class="card-text"><small class="text-muted">@Html.ActionLink("Edit", "Edit", new { projectId = Model.ProjectId }) | @Html.ActionLink("Delete", "Delete", new { projectId = Model.ProjectId })</small></p>

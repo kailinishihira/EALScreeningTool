@@ -28,14 +28,13 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" asp-controller="Projects" asp-action="Index">Projects</a>
-                    </li>                  
+                                   
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown link
+                            Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" asp-controller="Projects" asp-action="Index">All Projects</a>
                             <a class="dropdown-item" asp-controller="Projects" asp-action="Create">Add New Project</a>
                             <a class="dropdown-item" asp-controller="Projects" asp-action="/">Another action</a>
                             <a class="dropdown-item" asp-controller="Projects" asp-action="/">Something else</a>                           

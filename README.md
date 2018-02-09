@@ -2,7 +2,7 @@
 
 #### By _Kaili Nishihira_
 
-#### _A web app to screen analytical data from environmental samples against the State of Hawaii's established screening criteria, which are known as the Environmental Action Levels, 11.05.17_
+#### _A web app to screen analytical data from environmental samples against the State of Hawaii's established screening criteria, which are known as the Environmental Action Levels, 02.08.18_
 
 
 ## Description
@@ -45,7 +45,6 @@ _For more information on EALs, visit the  [State of Hawaii, Dept. of Health](htt
 ## Setup/Installation Requirements
 
 * _Download and install [.NET Core 1.1 SDK](https://www.microsoft.com/net/download/core)_
-* _Download and install [Mono](http://www.mono-project.com/download/)_
 * _Download and install [MAMP](https://www.mamp.info/en/)_
 * _Download and install [Visual Studio 2017](https://www.visualstudio.com/)_
 * _Clone repository_
@@ -85,7 +84,7 @@ _Contributions are always welcome! Please contact Kaili Nishihira at kailinishih
 
 ### License
 
-Copyright (c) 2017 **_Kaili Nishihira_**
+Copyright (c) 2018 **_Kaili Nishihira_**
 
 *Licensed under the [MIT License](https://opensource.org/licenses/MIT)*
 
